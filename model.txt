@@ -1,0 +1,14 @@
+rg find [-f] [reg<m|t>]
+	{ Procura no sistema, o registro informado, e mostra as informações do registro }
+
+rg add  [-a] [reg<m|t>] [regs: <m|t>*]
+	{ Adiciona um novo registro ao sistema, com possibilidade de já adicionar os registros anteriores dele. Caso já exista o registro no sistema, o comando vai apenas anexar os registros anteriores novos, e informar que já existia, e mostrar as informações atualizadas }
+
+rg mod  [-m] [reg<m|t>]
+	{ Nessa tela, é possivel modificar os registros anteriores do registro em edição, podendo remover ou adicionar }
+
+rg set  [-s] [reg<m|t>] [anterior: reg<m|t>]
+	{ Marcar um registro como Registro Anterior de outro registro }
+
+rg del  [-d] [reg<m|t>]
+	{ Deleta um registro do sistema, limpando as referencias a ele em outros registros }
