@@ -1,0 +1,7 @@
+Comando para "remover link" entre registros
+
+Verificação e reporte de valores errados quando está fazendo o comando ADD para o registros anteriores
+
+Aceitar os comandos como lowercase sempre
+
+Comando para entrar em MODO SHELL
